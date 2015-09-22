@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 20 Sep 2015 10:53:32 PM EDT
+
+BeginCmp
+TimeStamp = /56013B96;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = Connect:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF6B36;
+Reference = P1;
+ValeurCmp = CONN_02X18;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x18;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF6C44;
+Reference = P2;
+ValeurCmp = CONN_02X18;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x18;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF6CC4;
+Reference = P3;
+ValeurCmp = CONN_02X18;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x18;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF6D42;
+Reference = P4;
+ValeurCmp = CONN_02X18;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x18;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF72F4;
+Reference = P5;
+ValeurCmp = CONN_01X17;
+IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF7251;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF4147;
+Reference = U1;
+ValeurCmp = LPC4337JBD144;
+IdModule  = Housings_QFP:LQFP-144_20x20mm_Pitch0.5mm;
+EndCmp
+
+EndListe
