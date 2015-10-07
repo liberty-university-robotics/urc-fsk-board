@@ -1,4 +1,4 @@
-update=Sun 20 Sep 2015 07:28:02 PM EDT
+update=Tue 06 Oct 2015 07:47:05 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=library/nxp
+LibName32=library/diodesinc
+LibName33=library/assmann
