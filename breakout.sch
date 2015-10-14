@@ -136,13 +136,13 @@ $EndComp
 $Comp
 L SD_Card CON1
 U 1 1 5614B52D
-P 1850 9250
-F 0 "CON1" H 1200 9800 50  0000 C CNN
-F 1 "SD_Card" H 2450 8700 50  0000 C CNN
-F 2 "Custom Footprints:SD_MMC_Card_Receptacle" H 2050 9600 50  0000 C CNN
-F 3 "" H 1850 9250 60  0000 C CNN
-	1    1850 9250
-	1    0    0    -1  
+P 1900 5550
+F 0 "CON1" H 1250 6100 50  0000 C CNN
+F 1 "SD_Card" H 2500 5000 50  0000 C CNN
+F 2 "Custom Footprints:SD_MMC_Card_Receptacle" H 2100 5900 50  0000 C CNN
+F 3 "" H 1900 5550 60  0000 C CNN
+	1    1900 5550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X40 P2
@@ -180,12 +180,12 @@ $EndComp
 $Comp
 L TS30011-M050QFNR PWR2
 U 1 1 561BCBF8
-P 1350 2850
-F 0 "PWR2" H 1700 2600 60  0000 C CNN
-F 1 "TS30011-M050QFNR" H 1350 2850 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 1350 2850 60  0001 C CNN
-F 3 "" H 1350 2850 60  0000 C CNN
-	1    1350 2850
+P 2000 3150
+F 0 "PWR2" H 2350 2900 60  0000 C CNN
+F 1 "TS30011-M050QFNR" H 2000 3150 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 2000 3150 60  0001 C CNN
+F 3 "" H 2000 3150 60  0000 C CNN
+	1    2000 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -318,11 +318,15 @@ $EndComp
 Wire Wire Line
 	1300 2350 1300 2000
 Wire Wire Line
-	850  2350 1300 2350
+	850  2350 1100 2350
+Wire Wire Line
+	1100 2350 1300 2350
 Wire Wire Line
 	850  2350 850  2250
 Wire Wire Line
-	1750 2350 2150 2350
+	1750 2350 2000 2350
+Wire Wire Line
+	2000 2350 2150 2350
 $Comp
 L C_Small C2
 U 1 1 561C6EF8
@@ -359,14 +363,18 @@ $EndComp
 Wire Wire Line
 	850  950  900  950 
 Wire Wire Line
-	1650 700  1650 800 
+	1650 700  1650 750 
+Wire Wire Line
+	1650 750  1650 800 
 Wire Wire Line
 	1650 750  1700 750 
 Connection ~ 1650 750 
 Text Label 1700 750  0    60   ~ 0
 GND
 Wire Wire Line
-	2250 700  2250 800 
+	2250 700  2250 750 
+Wire Wire Line
+	2250 750  2250 800 
 Wire Wire Line
 	2250 750  2200 750 
 Connection ~ 2250 750 
@@ -419,4 +427,46 @@ Wire Wire Line
 	3350 1500 3350 2750
 Wire Wire Line
 	3350 2750 3900 2750
+Text Label 3900 6450 2    60   ~ 0
+SPI_SCK
+Text Label 3900 6850 2    60   ~ 0
+SPI_MISO
+Text Label 3900 6950 2    60   ~ 0
+SPI_MOSI
+Text Label 3900 7050 2    60   ~ 0
+SPI_SSEL
+Text Label 2800 5150 0    60   ~ 0
+SD_DAT2
+Text Label 2800 5250 0    60   ~ 0
+SD_DAT3
+Text Label 2800 5850 0    60   ~ 0
+SD_DAT0
+Text Label 2800 5950 0    60   ~ 0
+SD_DAT1
+Text Label 1000 5350 2    60   ~ 0
+SD_CD
+Text Label 2800 5350 0    60   ~ 0
+SD_CMD
+Text Label 2800 5650 0    60   ~ 0
+SD_CLK
+Text Label 2800 5550 0    60   ~ 0
+3.3V
+Text Label 2800 5750 0    60   ~ 0
+GND
+Text Label 2800 5450 0    60   ~ 0
+GND
+Text Label 5900 4650 0    60   ~ 0
+SD_CLK
+Text Label 5900 3850 0    60   ~ 0
+SD_DAT1
+Text Label 5900 3950 0    60   ~ 0
+SD_DAT0
+Text Label 5900 4250 0    60   ~ 0
+SD_CMD
+Text Label 5900 3550 0    60   ~ 0
+SD_DAT3
+Text Label 5900 3650 0    60   ~ 0
+SD_DAT2
+Text Label 5900 3150 0    60   ~ 0
+SD_CD
 $EndSCHEMATC
