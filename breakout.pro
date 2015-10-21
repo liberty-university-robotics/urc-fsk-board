@@ -1,4 +1,4 @@
-update=Wed 07 Oct 2015 05:38:04 PM EDT
+update=Mon 19 Oct 2015 01:29:13 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,7 @@ LibName31=library/nxp
 LibName32=library/diodesinc
 LibName33=library/assmann
 LibName34=library/semtech
+LibName35=library/te
+LibName36=library/cototech
+LibName37=library/cts
+LibName38=library/molex

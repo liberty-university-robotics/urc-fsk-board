@@ -1,187 +1,192 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 14 Oct 2015 05:37:59 PM EDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 21 Oct 2015 04:32:51 PM EDT
 
 BeginCmp
-TimeStamp = 561C3C1E
-Path = /55FF4147
-Reference = CPU1;
-ValeurCmp = LPC4337JBD144;
-IdModule  = Housings_QFP:LQFP-144_20x20mm_Pitch0.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5614BAD6
-Path = /5614BAE0
-Reference = P2;
-ValeurCmp = CONN_01X40;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
-EndCmp
-
-BeginCmp
-TimeStamp = 5614BB02
-Path = /5614BB79
-Reference = P3;
-ValeurCmp = CONN_01X40;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3B62
-Path = /561C4C1B
+TimeStamp = /561C4C1B;
 Reference = C1;
 ValeurCmp = 470uF;
 IdModule  = Capacitors_SMD:C_0201;
 EndCmp
 
 BeginCmp
-TimeStamp = 561C3B68
-Path = /561C6EF8
+TimeStamp = /561C6EF8;
 Reference = C2;
 ValeurCmp = 220uF;
 IdModule  = Capacitors_SMD:C_0201;
 EndCmp
 
 BeginCmp
-TimeStamp = 561C3B69
-Path = /5614B52D
-Reference = CON1;
-ValeurCmp = SD_Card;
-IdModule  = Custom Footprints:SD_MMC_Card_Receptacle;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C24
-Path = /561C5624
-Reference = D1;
-ValeurCmp = D_Small;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C2A
-Path = /561C33B9
-Reference = F1;
-ValeurCmp = 0603SFV300F/32-2;
-IdModule  = SMD_Packages:SMD-1206_Pol;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C30
-Path = /561C4656
-Reference = L1;
-ValeurCmp = 22uH;
-IdModule  = SMD_Packages:SMD-1206_Pol;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C5C
-Path = /5614BB33
-Reference = P4;
-ValeurCmp = CONN_01X40;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C6B
-Path = /5614B4EE
-Reference = P5;
-ValeurCmp = A-DF-09-A/KG-T4S;
-IdModule  = Custom Footprints:DIN9F;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C75
-Path = /56145B14
-Reference = PWR1;
-ValeurCmp = AP3003S-3.3TRE1;
-IdModule  = SMD_Packages:TO-263-5;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C3C8D
-Path = /561BCBF8
-Reference = PWR2;
-ValeurCmp = TS30011-M050QFNR;
-IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C444C
-Path = /561CE1C4
-Reference = GND1;
-ValeurCmp = CONN_01X02;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
-EndCmp
-
-BeginCmp
-TimeStamp = 561C4451
-Path = /55FF7251
-Reference = POWER1;
-ValeurCmp = CONN_01X02;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
-EndCmp
-
-BeginCmp
-TimeStamp = 561E9390
-Path = /561F5813
+TimeStamp = /561F5813;
 Reference = C3;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E9396
-Path = /561F6598
+TimeStamp = /561F6598;
 Reference = C4;
 ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E939C
-Path = /561ED0E2
+TimeStamp = /561ED0E2;
 Reference = C5;
 ValeurCmp = 22uF;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E93A2
-Path = /561ED13D
+TimeStamp = /561ED13D;
 Reference = C6;
 ValeurCmp = 22uF;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E93A8
-Path = /561EBE7B
+TimeStamp = /5614B52D;
+Reference = CON1;
+ValeurCmp = SD_Card;
+IdModule  = Custom Footprints:SD_MMC_Card_Receptacle;
+EndCmp
+
+BeginCmp
+TimeStamp = /561FF096;
+Reference = CON2;
+ValeurCmp = USB-MICRO-AB-SMD;
+IdModule  = Custom Footprints:USB_MICRO_AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF4147;
+Reference = CPU1;
+ValeurCmp = LPC4337JBD144;
+IdModule  = Housings_QFP:LQFP-144_20x20mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /561C5624;
+Reference = D1;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5620171B;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /561C33B9;
+Reference = F1;
+ValeurCmp = 0603SFV300F/32-2;
+IdModule  = SMD_Packages:SMD-1206_Pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /5620442C;
+Reference = G1;
+ValeurCmp = 9007-05-00;
+IdModule  = Custom Footprints:9007-05-00;
+EndCmp
+
+BeginCmp
+TimeStamp = /561CE1C4;
+Reference = GND1;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /561C4656;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = SMD_Packages:SMD-1206_Pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /561EBE7B;
 Reference = L2;
 ValeurCmp = 4.7uH;
 IdModule  = Capacitors_SMD:C_0201;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E93AE
-Path = /561F8304
+TimeStamp = /5614BAE0;
+Reference = P2;
+ValeurCmp = CONN_01X40;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614BB79;
+Reference = P3;
+ValeurCmp = CONN_01X40;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614BB33;
+Reference = P4;
+ValeurCmp = CONN_01X40;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614B4EE;
+Reference = P5;
+ValeurCmp = A-DF-09-A/KG-T4S;
+IdModule  = Custom Footprints:DIN9F;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FF7251;
+Reference = POWER1;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /56145B14;
+Reference = PWR1;
+ValeurCmp = AP3003S-3.3TRE1;
+IdModule  = SMD_Packages:TO-263-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /561BCBF8;
+Reference = PWR2;
+ValeurCmp = TS30011-M050QFNR;
+IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /561F8304;
 Reference = R1;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0201;
 EndCmp
 
 BeginCmp
-TimeStamp = 561E93B4
-Path = /561F82A3
+TimeStamp = /561F82A3;
 Reference = R2;
 ValeurCmp = 17.8K;
 IdModule  = Resistors_SMD:R_0201;
 EndCmp
 
 BeginCmp
-TimeStamp = 561C3B7D
-Path = /56013B96
-Reference = CON2;
-ValeurCmp = USB-MINI-B;
-IdModule  = Custom Footprints:USB_MINI_AB_SMD;
+TimeStamp = /56208A5C;
+Reference = R3;
+ValeurCmp = R_Small;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56256BB5;
+Reference = S1;
+ValeurCmp = 210-6MS;
+IdModule  = Buttons_Switches_ThroughHole:SW_DIP_x6_Slide;
 EndCmp
 
 EndListe
