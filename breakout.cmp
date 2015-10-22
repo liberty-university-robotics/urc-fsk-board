@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 21 Oct 2015 04:32:51 PM EDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Thu 22 Oct 2015 11:50:45 AM EDT
 
 BeginCmp
 TimeStamp = /561C4C1B;
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /561FF096;
 Reference = CON2;
-ValeurCmp = USB-MICRO-AB-SMD;
+ValeurCmp = USB-MICRO-AB;
 IdModule  = Custom Footprints:USB_MICRO_AB;
 EndCmp
 
@@ -68,13 +68,6 @@ TimeStamp = /561C5624;
 Reference = D1;
 ValeurCmp = D_Small;
 IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
-EndCmp
-
-BeginCmp
-TimeStamp = /5620171B;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -178,7 +171,49 @@ EndCmp
 BeginCmp
 TimeStamp = /56208A5C;
 Reference = R3;
-ValeurCmp = R_Small;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628495F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /562857F4;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628BCED;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628BBE0;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628B7D5;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5628A3C6;
+Reference = R9;
+ValeurCmp = 10k;
 IdModule  = ;
 EndCmp
 
@@ -187,6 +222,13 @@ TimeStamp = /56256BB5;
 Reference = S1;
 ValeurCmp = 210-6MS;
 IdModule  = Buttons_Switches_ThroughHole:SW_DIP_x6_Slide;
+EndCmp
+
+BeginCmp
+TimeStamp = /562861D9;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
 EndCmp
 
 EndListe
