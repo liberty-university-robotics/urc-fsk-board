@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Tue 27 Oct 2015 08:12:59 PM EDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 04 Nov 2015 06:08:06 PM EST
 
 BeginCmp
 TimeStamp = /561C4C1B;
 Reference = C1;
 ValeurCmp = 470uF;
-IdModule  = Capacitors_SMD:C_0201;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_25x12.5mm_RM5_CopperClear;
 EndCmp
 
 BeginCmp
@@ -66,15 +66,8 @@ EndCmp
 BeginCmp
 TimeStamp = /561C5624;
 Reference = D1;
-ValeurCmp = D_Small;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
-EndCmp
-
-BeginCmp
-TimeStamp = /561C33B9;
-Reference = F1;
-ValeurCmp = 0603SFV300F/32-2;
-IdModule  = SMD_Packages:SMD-1206_Pol;
+ValeurCmp = B340;
+IdModule  = Diodes_SMD:Diode-SMC_Standard;
 EndCmp
 
 BeginCmp
@@ -85,24 +78,17 @@ IdModule  = Custom Footprints:9007-05-00;
 EndCmp
 
 BeginCmp
-TimeStamp = /561CE1C4;
-Reference = GND1;
-ValeurCmp = CONN_01X02;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
-EndCmp
-
-BeginCmp
 TimeStamp = /561C4656;
 Reference = L1;
 ValeurCmp = 22uH;
-IdModule  = SMD_Packages:SMD-1206_Pol;
+IdModule  = Choke_SMD:Choke_SMD_12x12mm_h8mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /561EBE7B;
 Reference = L2;
 ValeurCmp = 4.7uH;
-IdModule  = Capacitors_SMD:C_0201;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -137,7 +123,7 @@ BeginCmp
 TimeStamp = /55FF7251;
 Reference = POWER1;
 ValeurCmp = CONN_01X02;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Custom Footprints:1792863;
 EndCmp
 
 BeginCmp
@@ -228,7 +214,7 @@ BeginCmp
 TimeStamp = /562861D9;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Custom Footprints:1825910-7;
 EndCmp
 
 EndListe
