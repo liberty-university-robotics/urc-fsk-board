@@ -37,6 +37,7 @@ LIBS:te
 LIBS:cototech
 LIBS:cts
 LIBS:molex
+LIBS:mpd
 LIBS:breakout-cache
 EELAYER 25 0
 EELAYER END
@@ -317,7 +318,7 @@ Text Label 3900 8750 2    60   ~ 0
 Text Label 5900 2050 0    60   ~ 0
 3.3V
 Text Label 3900 7350 2    60   ~ 0
-3.3V
+BAT3.0V
 Text Label 3900 8350 2    60   ~ 0
 3.3V
 Text Label 3900 6450 2    60   ~ 0
@@ -893,4 +894,30 @@ P1_2
 Wire Wire Line
 	950  8250 850  8250
 Connection ~ 950  8250
+$Comp
+L BS-5 B1
+U 1 1 563D3D9D
+P 1400 8950
+F 0 "B1" H 1400 9260 60  0000 C CNN
+F 1 "BS-5" H 1140 9080 60  0000 C CNN
+F 2 "Custom Footprints:BS-5" H 1400 9080 60  0001 C CNN
+F 3 "" H 1400 9080 60  0000 C CNN
+	1    1400 8950
+	1    0    0    -1  
+$EndComp
+Text Label 1150 9100 2    60   ~ 0
+BAT3.0V
+$Comp
+L GND #PWR?
+U 1 1 563D5013
+P 1500 9100
+F 0 "#PWR?" H 1500 8850 50  0001 C CNN
+F 1 "GND" H 1500 8950 50  0000 C CNN
+F 2 "" H 1500 9100 60  0000 C CNN
+F 3 "" H 1500 9100 60  0000 C CNN
+	1    1500 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 9100 1150 9100
 $EndSCHEMATC

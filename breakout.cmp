@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 04 Nov 2015 06:08:06 PM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Fri 06 Nov 2015 06:40:32 PM EST
+
+BeginCmp
+TimeStamp = /563D3D9D;
+Reference = B1;
+ValeurCmp = BS-5;
+IdModule  = Custom Footprints:BS-5;
+EndCmp
 
 BeginCmp
 TimeStamp = /561C4C1B;

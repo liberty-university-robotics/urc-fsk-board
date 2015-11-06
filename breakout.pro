@@ -1,4 +1,4 @@
-update=Mon 19 Oct 2015 01:29:13 PM EDT
+update=Fri 06 Nov 2015 06:17:41 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=library/te
 LibName36=library/cototech
 LibName37=library/cts
 LibName38=library/molex
+LibName39=library/mpd
