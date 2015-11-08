@@ -3,10 +3,10 @@
   (general
     (links 118)
     (no_connects 116)
-    (area 65.862999 107.391999 183.468334 263.457109)
+    (area 65.862999 107.391999 180.771001 230.301001)
     (thickness 1.6)
     (drawings 6)
-    (tracks 5)
+    (tracks 2)
     (zones 0)
     (modules 32)
     (nets 35)
@@ -36,17 +36,17 @@
   )
 
   (setup
-    (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (last_trace_width 0.254)
+    (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only yes)
-    (trace_min 0.2)
+    (trace_min 0.254)
     (segment_width 0.2)
     (edge_width 0.1)
     (via_size 0.6)
     (via_drill 0.4)
-    (via_min_size 0.4)
-    (via_min_drill 0.3)
+    (via_min_size 0.42)
+    (via_min_drill 0.4)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -126,8 +126,8 @@
   (net 34 /BAT3.0V)
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
-    (trace_width 0.25)
+    (clearance 0.254)
+    (trace_width 0.254)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -453,7 +453,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x40 (layer F.Cu) (tedit 0) (tstamp 5614BB02)
-    (at 161.163 125.73 270)
+    (at 163.2966 124.5616 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /5614BB79)
@@ -522,7 +522,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x40 (layer F.Cu) (tedit 0) (tstamp 561C3C5C)
-    (at 175.26 128.2192 270)
+    (at 171.9326 127.4826 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /5614BB33)
@@ -627,7 +627,7 @@
   )
 
   (module SMD_Packages:TO-263-5 (layer F.Cu) (tedit 5415119F) (tstamp 561C3C75)
-    (at 109.093 176.149)
+    (at 108.585 176.3268)
     (path /56145B14)
     (attr smd)
     (fp_text reference PWR1 (at 0 -5.969) (layer F.SilkS)
@@ -656,7 +656,7 @@
   )
 
   (module Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 561C3C8D)
-    (at 123.19 155.829)
+    (at 123.9774 155.8036)
     (descr "16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /561BCBF8)
@@ -1340,7 +1340,7 @@
   )
 
   (module Diodes_SMD:Diode-SMC_Standard (layer F.Cu) (tedit 563A7BBA) (tstamp 563A7B04)
-    (at 110.0836 181.3814 180)
+    (at 119.9388 178.4604 180)
     (descr "Diode SMC Standard")
     (tags "Diode SMC Standard")
     (path /561C5624)
@@ -1428,7 +1428,7 @@
   )
 
   (module "Custom Footprints:1792863" (layer F.Cu) (tedit 563A8AD2) (tstamp 563A8B0F)
-    (at 96.8502 180.9496 270)
+    (at 96.5962 178.0286 270)
     (tags "CONN TERM BLOCK 5MM 2POS GRN")
     (path /55FF7251)
     (fp_text reference POWER1 (at -3.7592 0.508 360) (layer F.SilkS)
@@ -1602,29 +1602,7 @@
   )
   (gr_circle (center 88.519 258.064) (end 90.297 262.89) (layer F.SilkS) (width 0.5))
 
-  (segment (start 112.49406 180.3908) (end 113.48466 181.3814) (width 0.25) (layer F.Cu) (net 1) (tstamp 563A7B90))
-  (segment (start 107.39374 180.6702) (end 106.68254 181.3814) (width 0.25) (layer F.Cu) (net 6) (tstamp 563A7B8D))
-  (segment (start 107.39374 176.149) (end 107.569 176.32426) (width 0.25) (layer F.Cu) (net 6))
   (via (at 97.536 211.939) (size 0.6) (layers F.Cu B.Cu) (net 9) (status 30))
   (segment (start 97.536 209.169) (end 97.79 209.169) (width 0.25) (layer F.Cu) (net 10) (status 30))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 561C4727) (hatch edge 0.508)
-    (connect_pads yes (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 115.316 173.99) (xy 112.903 173.99) (xy 112.903 175.133) (xy 112.014 175.133) (xy 112.014 173.99)
-        (xy 109.601 173.99) (xy 109.601 175.133) (xy 108.585 175.133) (xy 108.585 173.99) (xy 93.091 173.99)
-        (xy 93.091 160.02) (xy 115.316 160.02)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 115.189 173.863) (xy 112.776 173.863) (xy 112.776 175.006) (xy 112.141 175.006) (xy 112.141 173.863)
-        (xy 109.474 173.863) (xy 109.474 175.006) (xy 108.712 175.006) (xy 108.712 173.863) (xy 93.218 173.863)
-        (xy 93.218 160.147) (xy 115.189 160.147) (xy 115.189 173.863)
-      )
-    )
-  )
 )
