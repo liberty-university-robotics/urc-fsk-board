@@ -122,13 +122,13 @@ $EndComp
 $Comp
 L CONN_01X40 P4
 U 1 1 5614BB33
-P 7800 5000
-F 0 "P4" H 7800 7050 50  0000 C CNN
-F 1 "CONN_01X40" V 7900 5000 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 7800 5000 60  0001 C CNN
-F 3 "" H 7800 5000 60  0000 C CNN
-	1    7800 5000
-	1    0    0    -1  
+P 7850 5800
+F 0 "P4" H 7850 7850 50  0000 C CNN
+F 1 "CONN_01X40" V 7950 5800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 7850 5800 60  0001 C CNN
+F 3 "" H 7850 5800 60  0000 C CNN
+	1    7850 5800
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X40 P2
@@ -367,17 +367,17 @@ Text Label 2000 9250 0    60   ~ 0
 VCC
 Text Label 2000 9450 0    60   ~ 0
 3.3V
-Text Label 1050 3100 1    60   ~ 0
+Text Label 1050 8650 1    60   ~ 0
 GND
 Text Label 800  9450 2    60   ~ 0
 GND
-Text Label 1350 3100 1    60   ~ 0
+Text Label 1350 8650 1    60   ~ 0
 GND
-Text Label 1450 3100 1    60   ~ 0
+Text Label 1450 8650 1    60   ~ 0
 GND
-Text Label 1250 3100 1    60   ~ 0
+Text Label 1250 8650 1    60   ~ 0
 VSW
-Text Label 1550 3100 1    60   ~ 0
+Text Label 1550 8650 1    60   ~ 0
 VSW
 Text Label 2000 9150 0    60   ~ 0
 VSW
@@ -862,7 +862,7 @@ Connection ~ 1850 7150
 Wire Wire Line
 	1850 6600 2000 6600
 Wire Wire Line
-	2000 6600 2000 6350
+	2000 6350 2000 6600
 Wire Wire Line
 	1000 6350 2700 6350
 Wire Wire Line
@@ -1134,4 +1134,205 @@ Text Label 5050 900  3    60   ~ 0
 P6_1
 Text Label 5150 900  3    60   ~ 0
 P6_0
+Text Label 6850 9000 0    60   ~ 0
+P4_0
+Text Label 6850 8900 0    60   ~ 0
+ADC0_1
+Text Label 6850 8800 0    60   ~ 0
+P4_1
+Text Label 6850 8500 0    60   ~ 0
+ADC0_0
+Text Label 6850 8400 0    60   ~ 0
+P4_3
+Text Label 6850 8300 0    60   ~ 0
+P4_2
+Text Label 6850 8200 0    60   ~ 0
+P4_4
+Text Label 6850 8100 0    60   ~ 0
+P4_5
+Text Label 6850 8000 0    60   ~ 0
+P4_6
+Text Label 6850 7900 0    60   ~ 0
+XTAL1
+Text Label 6850 7800 0    60   ~ 0
+XTAL2
+Text Label 6850 7700 0    60   ~ 0
+P4_7
+Text Label 6850 7600 0    60   ~ 0
+P4_8
+NoConn ~ 6850 7500
+NoConn ~ 6850 7400
+NoConn ~ 6850 7200
+NoConn ~ 6850 6800
+NoConn ~ 6850 6700
+Text Label 6850 6400 0    60   ~ 0
+TCK
+Text Label 6850 6300 0    60   ~ 0
+DBGEN
+Text Label 6850 6200 0    60   ~ 0
+TRST
+Text Label 6850 6100 0    60   ~ 0
+TMS
+Text Label 6850 6000 0    60   ~ 0
+TDO
+Text Label 6850 5800 0    60   ~ 0
+P4_9
+Text Label 6850 5700 0    60   ~ 0
+P0_1
+Text Label 6850 5600 0    60   ~ 0
+P4_10
+Text Label 6850 5400 0    60   ~ 0
+P5_0
+Text Label 6850 5300 0    60   ~ 0
+P1_0
+Text Label 6850 5200 0    60   ~ 0
+P5_1
+Text Label 6850 4700 0    60   ~ 0
+P1_3
+Text Label 6850 4500 0    60   ~ 0
+P5_2
+Text Label 6850 4300 0    60   ~ 0
+P1_5
+Text Label 6850 4100 0    60   ~ 0
+P1_7
+Text Label 6850 4000 0    60   ~ 0
+P1_8
+Text Label 6850 3700 0    60   ~ 0
+P5_3
+Text Label 6850 3400 0    60   ~ 0
+P5_4
+Text Label 6850 3300 0    60   ~ 0
+P5_5
+Text Label 6850 3000 0    60   ~ 0
+P1_14
+Text Label 6850 2900 0    60   ~ 0
+P1_15
+Text Label 6850 2800 0    60   ~ 0
+P5_6
+Text Label 6850 2700 0    60   ~ 0
+P1_16
+Text Label 6850 2600 0    60   ~ 0
+P5_7
+Text Label 6850 2500 0    60   ~ 0
+P1_17
+Text Label 6850 2400 0    60   ~ 0
+P1_18
+Text Label 6850 2300 0    60   ~ 0
+P1_19
+Text Label 6850 2200 0    60   ~ 0
+P9_5
+Text Label 6850 2100 0    60   ~ 0
+P1_20
+Text Label 6850 1900 0    60   ~ 0
+P9_6
+Text Label 6850 6500 0    60   ~ 0
+TDI
+Text Label 7350 900  3    60   ~ 0
+P1_1
+Text Label 7250 900  3    60   ~ 0
+P1_2
+Text Label 7150 900  3    60   ~ 0
+P1_3
+Text Label 7050 900  3    60   ~ 0
+P5_2
+Text Label 6850 900  3    60   ~ 0
+P1_5
+Text Label 6750 900  3    60   ~ 0
+P1_7
+Text Label 6650 900  3    60   ~ 0
+P1_8
+Text Label 6550 900  3    60   ~ 0
+P5_3
+Text Label 6450 900  3    60   ~ 0
+P5_4
+Text Label 6350 900  3    60   ~ 0
+P5_5
+Text Label 6250 900  3    60   ~ 0
+P1_14
+Text Label 6150 900  3    60   ~ 0
+P1_15
+Text Label 6050 900  3    60   ~ 0
+P5_6
+Text Label 5950 900  3    60   ~ 0
+P1_16
+Text Label 5850 900  3    60   ~ 0
+P5_7
+Text Label 5750 900  3    60   ~ 0
+P1_17
+Text Label 5650 900  3    60   ~ 0
+P1_18
+Text Label 5550 900  3    60   ~ 0
+P1_19
+Text Label 5450 900  3    60   ~ 0
+P9_5
+Text Label 5350 900  3    60   ~ 0
+P1_20
+Text Label 5250 900  3    60   ~ 0
+P9_6
+Text Label 6950 900  3    60   ~ 0
+USB0_IND0
+Text Label 7550 900  3    60   ~ 0
+P1_0
+Text Label 7450 900  3    60   ~ 0
+P5_1
+Text Label 7650 4250 2    60   ~ 0
+IC_WP
+Text Label 7650 6150 2    60   ~ 0
+P4_0
+Text Label 7650 6050 2    60   ~ 0
+ADC0_1
+Text Label 7650 5950 2    60   ~ 0
+P4_1
+Text Label 7650 5850 2    60   ~ 0
+ADC0_0
+Text Label 7650 5750 2    60   ~ 0
+P4_3
+Text Label 7650 5650 2    60   ~ 0
+P4_2
+Text Label 7650 5550 2    60   ~ 0
+P4_4
+Text Label 7650 5450 2    60   ~ 0
+P4_5
+Text Label 7650 5350 2    60   ~ 0
+P4_6
+Text Label 7650 5250 2    60   ~ 0
+XTAL1
+Text Label 7650 5150 2    60   ~ 0
+XTAL2
+Text Label 7650 5050 2    60   ~ 0
+P4_7
+Text Label 7650 4950 2    60   ~ 0
+P4_8
+Text Label 7650 4750 2    60   ~ 0
+TCK
+Text Label 7650 4650 2    60   ~ 0
+DBGEN
+Text Label 7650 4550 2    60   ~ 0
+TRST
+Text Label 7650 4450 2    60   ~ 0
+TMS
+Text Label 7650 4350 2    60   ~ 0
+TDO
+Text Label 7650 4150 2    60   ~ 0
+P4_9
+Text Label 7650 4050 2    60   ~ 0
+P0_1
+Text Label 7650 3950 2    60   ~ 0
+P4_10
+Text Label 7650 3850 2    60   ~ 0
+P5_0
+Text Label 7650 4850 2    60   ~ 0
+TDI
+Text Label 7650 7650 2    60   ~ 0
+RAIL
+Text Label 7650 7750 2    60   ~ 0
+GND
+Text Label 7650 7550 2    60   ~ 0
+3.3V
+Text Label 7650 7450 2    60   ~ 0
+5V
+Text Label 7650 7350 2    60   ~ 0
+BAT3.0V
+Text Label 7650 7250 2    60   ~ 0
+RESET
 $EndSCHEMATC
