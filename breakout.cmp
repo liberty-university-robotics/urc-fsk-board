@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Fri 06 Nov 2015 06:40:32 PM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Thu 12 Nov 2015 06:15:54 PM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -99,14 +99,14 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5614BAE0;
+TimeStamp = /5614BB79;
 Reference = P2;
 ValeurCmp = CONN_01X40;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
 EndCmp
 
 BeginCmp
-TimeStamp = /5614BB79;
+TimeStamp = /5614BAE0;
 Reference = P3;
 ValeurCmp = CONN_01X40;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
@@ -145,20 +145,6 @@ TimeStamp = /561BCBF8;
 Reference = PWR2;
 ValeurCmp = TS30011-M050QFNR;
 IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /561F8304;
-Reference = R1;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /561F82A3;
-Reference = R2;
-ValeurCmp = 17.8K;
-IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
@@ -222,6 +208,13 @@ TimeStamp = /562861D9;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
 IdModule  = Custom Footprints:1825910-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /564546B8;
+Reference = W1;
+ValeurCmp = TEST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 EndListe
