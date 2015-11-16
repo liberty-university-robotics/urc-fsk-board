@@ -281,9 +281,9 @@ F 3 "" H 2000 2550 60  0000 C CNN
 	1    2000 2550
 	1    0    0    -1  
 $EndComp
-Text Label 1600 850  0    60   ~ 0
-GND
 Text Label 1600 750  0    60   ~ 0
+GND
+Text Label 1600 850  0    60   ~ 0
 RAIL
 Text Label 4850 5500 2    60   ~ 0
 GND
