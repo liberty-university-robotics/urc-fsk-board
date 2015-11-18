@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -122,12 +121,12 @@ $EndComp
 $Comp
 L CONN_01X40 P4
 U 1 1 5614BB33
-P 7850 5800
-F 0 "P4" H 7850 7850 50  0000 C CNN
-F 1 "CONN_01X40" V 7950 5800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 7850 5800 60  0001 C CNN
-F 3 "" H 7850 5800 60  0000 C CNN
-	1    7850 5800
+P 8000 5800
+F 0 "P4" H 8000 7850 50  0000 C CNN
+F 1 "CONN_01X40" V 8100 5800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x40" H 8000 5800 60  0001 C CNN
+F 3 "" H 8000 5800 60  0000 C CNN
+	1    8000 5800
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1052,7 +1051,7 @@ Text Label 3800 3550 0    60   ~ 0
 P6_9
 Text Label 3800 3450 0    60   ~ 0
 P2_6
-Text Label 4850 3300 2    60   ~ 0
+Text Label 6750 900  3    60   ~ 0
 USB0_PPWR
 Text Label 4850 2300 2    60   ~ 0
 3.3V
@@ -1153,8 +1152,6 @@ Text Label 6850 4500 0    60   ~ 0
 P5_2
 Text Label 6850 4300 0    60   ~ 0
 P1_5
-Text Label 6850 4100 0    60   ~ 0
-P1_7
 Text Label 6850 4000 0    60   ~ 0
 P1_8
 Text Label 6850 3700 0    60   ~ 0
@@ -1197,8 +1194,6 @@ Text Label 7050 900  3    60   ~ 0
 P5_2
 Text Label 6850 900  3    60   ~ 0
 P1_5
-Text Label 6750 900  3    60   ~ 0
-P1_7
 Text Label 6650 900  3    60   ~ 0
 P1_8
 Text Label 6550 900  3    60   ~ 0
@@ -1309,4 +1304,8 @@ F 3 "" H 1750 9850 60  0000 C CNN
 	1    1750 9850
 	1    0    0    -1  
 $EndComp
+Text Label 6850 4100 0    60   ~ 0
+USB0_PPWR
+Text Label 4850 3300 2    60   ~ 0
+P2_3
 $EndSCHEMATC
