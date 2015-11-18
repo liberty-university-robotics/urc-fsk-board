@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Thu 12 Nov 2015 06:15:54 PM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 18 Nov 2015 04:46:01 PM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -73,6 +73,13 @@ EndCmp
 BeginCmp
 TimeStamp = /561C5624;
 Reference = D1;
+ValeurCmp = B340;
+IdModule  = Diodes_SMD:Diode-SMC_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /564CF908;
+Reference = D2;
 ValeurCmp = B340;
 IdModule  = Diodes_SMD:Diode-SMC_Standard;
 EndCmp
