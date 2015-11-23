@@ -1364,7 +1364,7 @@ Connection ~ 1850 7150
 Wire Wire Line
 	1850 6600 2000 6600
 Wire Wire Line
-	2000 6350 2000 6600
+	2000 6600 2000 6350
 Wire Wire Line
 	1000 6350 2700 6350
 Wire Wire Line
@@ -1420,4 +1420,26 @@ Wire Wire Line
 	4850 2100 2600 2100
 Wire Wire Line
 	1250 10050 3350 10050
+Text Label 12550 2700 3    60   ~ 0
+P1_14
+Text Label 12550 1950 3    60   ~ 0
+P1_15
+Text Label 12550 1050 3    60   ~ 0
+P5_6
+Text Label 12450 2700 3    60   ~ 0
+P1_16
+Text Label 12450 1950 3    60   ~ 0
+P5_7
+Text Label 12450 1050 3    60   ~ 0
+P1_17
+Text Label 12350 2700 3    60   ~ 0
+P1_18
+Text Label 12350 1950 3    60   ~ 0
+P1_19
+Text Label 12350 1050 3    60   ~ 0
+P9_5
+Text Label 12250 2700 3    60   ~ 0
+P1_20
+Text Label 12250 1950 3    60   ~ 0
+P9_6
 $EndSCHEMATC
