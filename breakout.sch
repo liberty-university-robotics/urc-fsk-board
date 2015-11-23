@@ -1179,51 +1179,51 @@ F 3 "" H 1750 850 60  0000 C CNN
 	1    1750 850 
 	1    0    0    1   
 $EndComp
-Text Label 8750 2700 3    60   ~ 0
+Text Label 9450 1950 3    60   ~ 0
 IC_WP
-Text Label 9350 1950 3    60   ~ 0
+Text Label 10050 1050 3    60   ~ 0
 P4_0
-Text Label 9350 2700 3    60   ~ 0
+Text Label 10050 1950 3    60   ~ 0
 ADC0_1
-Text Label 9250 1050 3    60   ~ 0
+Text Label 10050 2700 3    60   ~ 0
 P4_1
-Text Label 9250 1950 3    60   ~ 0
+Text Label 9950 1050 3    60   ~ 0
 ADC0_0
-Text Label 9250 2700 3    60   ~ 0
+Text Label 9950 1950 3    60   ~ 0
 P4_3
-Text Label 9150 1050 3    60   ~ 0
+Text Label 9950 2700 3    60   ~ 0
 P4_2
-Text Label 9150 1950 3    60   ~ 0
+Text Label 9850 1050 3    60   ~ 0
 P4_4
-Text Label 9150 2700 3    60   ~ 0
+Text Label 9850 1950 3    60   ~ 0
 P4_5
-Text Label 9050 1050 3    60   ~ 0
+Text Label 9850 2700 3    60   ~ 0
 P4_6
-Text Label 9050 1950 3    60   ~ 0
+Text Label 9750 1050 3    60   ~ 0
 XTAL1
-Text Label 9050 2700 3    60   ~ 0
+Text Label 9750 1950 3    60   ~ 0
 XTAL2
-Text Label 8950 1050 3    60   ~ 0
+Text Label 9750 2700 3    60   ~ 0
 P4_7
-Text Label 8950 1950 3    60   ~ 0
+Text Label 9650 1050 3    60   ~ 0
 P4_8
-Text Label 8850 1050 3    60   ~ 0
+Text Label 9650 2700 3    60   ~ 0
 TCK
-Text Label 8850 1950 3    60   ~ 0
+Text Label 9550 1050 3    60   ~ 0
 DBGEN
-Text Label 8850 2700 3    60   ~ 0
+Text Label 9550 1950 3    60   ~ 0
 TRST
-Text Label 8750 1050 3    60   ~ 0
+Text Label 9550 2700 3    60   ~ 0
 TMS
-Text Label 8750 1950 3    60   ~ 0
+Text Label 9450 1050 3    60   ~ 0
 TDO
-Text Label 8650 1050 3    60   ~ 0
+Text Label 9450 2700 3    60   ~ 0
 P4_9
-Text Label 8650 1950 3    60   ~ 0
+Text Label 9350 1050 3    60   ~ 0
 P0_1
-Text Label 8650 2700 3    60   ~ 0
+Text Label 9350 1950 3    60   ~ 0
 P4_10
-Text Label 8950 2700 3    60   ~ 0
+Text Label 9650 1950 3    60   ~ 0
 TDI
 Text Label 10150 2700 3    60   ~ 0
 ADC0_5
