@@ -923,17 +923,17 @@ Text Label 4850 2300 2    60   ~ 0
 3.3V
 Text Label 4850 2200 2    60   ~ 0
 GND
-Text Label 3650 550  3    60   ~ 0
+Text Label 3550 550  3    60   ~ 0
 I2C0_SDA
-Text Label 3750 550  3    60   ~ 0
+Text Label 3650 550  3    60   ~ 0
 I2C0_SCL
-Text Label 3850 550  3    60   ~ 0
+Text Label 3750 550  3    60   ~ 0
 P2_5
-Text Label 3950 550  3    60   ~ 0
+Text Label 3850 550  3    60   ~ 0
 USB1_D-
-Text Label 4050 550  3    60   ~ 0
+Text Label 3950 550  3    60   ~ 0
 USB1_D+
-Text Label 4150 550  3    60   ~ 0
+Text Label 4050 550  3    60   ~ 0
 P2_4
 Text Label 4250 550  3    60   ~ 0
 P6_8
@@ -1442,4 +1442,66 @@ Text Label 12250 2700 3    60   ~ 0
 P1_20
 Text Label 12250 1950 3    60   ~ 0
 P9_6
+Text Label 4850 1900 2    60   ~ 0
+P6_0
+Text Label 11650 1950 3    60   ~ 0
+I2C0_SDA
+Text Label 11650 2700 3    60   ~ 0
+I2C0_SCL
+Text Label 11750 1050 3    60   ~ 0
+P2_5
+Text Label 11750 1950 3    60   ~ 0
+USB1_D-
+Text Label 11750 2700 3    60   ~ 0
+USB1_D+
+Text Label 11850 1950 3    60   ~ 0
+P2_4
+Text Label 11950 1050 3    60   ~ 0
+P6_8
+Text Label 11950 1950 3    60   ~ 0
+P6_7
+Text Label 11950 2700 3    60   ~ 0
+P2_2
+Text Label 12050 1050 3    60   ~ 0
+P6_6
+Text Label 12050 1950 3    60   ~ 0
+P6_5
+Text Label 12050 2700 3    60   ~ 0
+P6_4
+Text Label 12150 1050 3    60   ~ 0
+P6_3
+Text Label 12150 1950 3    60   ~ 0
+P6_2
+Text Label 12150 2700 3    60   ~ 0
+P6_1
+Text Label 12250 1050 3    60   ~ 0
+P6_0
+Text Label 11250 1950 3    60   ~ 0
+P2_13
+Text Label 11250 2700 3    60   ~ 0
+P2_12
+Text Label 11350 1050 3    60   ~ 0
+P2_11
+Text Label 11350 1950 3    60   ~ 0
+P2_10
+Text Label 11350 2700 3    60   ~ 0
+P6_12
+Text Label 11450 1050 3    60   ~ 0
+P2_9
+Text Label 11450 1950 3    60   ~ 0
+P6_11
+Text Label 11450 2700 3    60   ~ 0
+P6_10
+Text Label 11550 1050 3    60   ~ 0
+CLK2
+Text Label 11550 1950 3    60   ~ 0
+P2_8
+Text Label 11550 2700 3    60   ~ 0
+P6_9
+Text Label 11650 1050 3    60   ~ 0
+P2_6
+Text Label 11850 2700 3    60   ~ 0
+P2_3
+Text Label 4150 550  3    60   ~ 0
+P2_3
 $EndSCHEMATC
