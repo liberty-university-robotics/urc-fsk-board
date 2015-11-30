@@ -1364,7 +1364,7 @@ Connection ~ 1850 7150
 Wire Wire Line
 	1850 6600 2000 6600
 Wire Wire Line
-	2000 6600 2000 6350
+	2000 6350 2000 6600
 Wire Wire Line
 	1000 6350 2700 6350
 Wire Wire Line
