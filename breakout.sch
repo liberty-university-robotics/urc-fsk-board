@@ -1512,16 +1512,16 @@ Text Label 11150 1950 3    60   ~ 0
 P5_3
 Text Label 11050 1950 3    60   ~ 0
 P1_8
-Text Label 9350 2700 3    60   ~ 0
-P1_5
-Text Label 9250 1050 3    60   ~ 0
-USB0_IND0
-Text Label 9250 1950 3    60   ~ 0
-P5_2
-Text Label 9250 2700 3    60   ~ 0
-P5_1
 Text Label 9150 1950 3    60   ~ 0
-P5_0
+P1_5
 Text Label 9150 1050 3    60   ~ 0
+USB0_IND0
+Text Label 9250 2700 3    60   ~ 0
+P5_2
+Text Label 9250 1950 3    60   ~ 0
+P5_1
+Text Label 9350 2700 3    60   ~ 0
+P5_0
+Text Label 9250 1050 3    60   ~ 0
 P1_0
 $EndSCHEMATC
