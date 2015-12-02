@@ -491,7 +491,6 @@ F 3 "" H 1800 5300 60  0000 C CNN
 $EndComp
 Text Label 1350 5100 2    60   ~ 0
 GND
-NoConn ~ 2300 5450
 Text Label 6850 4400 0    60   ~ 0
 USB0_IND0
 NoConn ~ 6850 7000
@@ -613,7 +612,6 @@ RESET
 Text Label 4850 4000 2    60   ~ 0
 3.3V
 NoConn ~ 900  4100
-NoConn ~ 900  4200
 Text Label 900  3900 2    60   ~ 0
 SD_WP
 Text Label 2300 7450 2    60   ~ 0
@@ -1364,7 +1362,7 @@ Connection ~ 1850 7050
 Wire Wire Line
 	1850 6600 2000 6600
 Wire Wire Line
-	2000 6350 2000 6600
+	2000 6600 2000 6350
 Wire Wire Line
 	1000 6350 2700 6350
 Wire Wire Line
@@ -1524,4 +1522,26 @@ Text Label 9350 2700 3    60   ~ 0
 P5_0
 Text Label 9250 1050 3    60   ~ 0
 P1_0
+$Comp
+L GND #PWR016
+U 1 1 565E50DA
+P 900 4200
+F 0 "#PWR016" H 900 3950 50  0001 C CNN
+F 1 "GND" V 900 4000 50  0000 C CNN
+F 2 "" H 900 4200 60  0000 C CNN
+F 3 "" H 900 4200 60  0000 C CNN
+	1    900  4200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 565E5A43
+P 2300 5450
+F 0 "#PWR017" H 2300 5200 50  0001 C CNN
+F 1 "GND" V 2300 5250 50  0000 C CNN
+F 2 "" H 2300 5450 60  0000 C CNN
+F 3 "" H 2300 5450 60  0000 C CNN
+	1    2300 5450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
