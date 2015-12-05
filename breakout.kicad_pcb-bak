@@ -483,7 +483,7 @@
     (tags "QFP 0.5")
     (path /55FF4147)
     (attr smd)
-    (fp_text reference CPU1 (at 0 -12.475) (layer F.SilkS)
+    (fp_text reference CPU1 (at -12.74 -11.06) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LPC4337JBD144 (at 0 12.475) (layer F.Fab)
