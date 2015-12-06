@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 06 Dec 2015 12:09:07 AM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 06 Dec 2015 12:37:13 AM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -152,6 +152,13 @@ TimeStamp = /5664957E;
 Reference = Q1;
 ValeurCmp = SIA461DJ-T1-GE3;
 IdModule  = Custom Footprints:PowerPak_SC-70-6L-Single;
+EndCmp
+
+BeginCmp
+TimeStamp = /566407D6;
+Reference = Q2;
+ValeurCmp = IRLML2402TRPBF;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Sat 05 Dec 2015 09:37:49 PM EST
+update=Sun 06 Dec 2015 12:26:31 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -70,3 +70,4 @@ LibName37=library/cts
 LibName38=library/molex
 LibName39=library/mpd
 LibName40=library/vishaysiliconix
+LibName41=library/infineon
