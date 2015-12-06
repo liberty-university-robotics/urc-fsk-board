@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 18 Nov 2015 04:46:01 PM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sat 05 Dec 2015 10:18:53 PM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -85,13 +85,6 @@ IdModule  = Diodes_SMD:Diode-SMC_Standard;
 EndCmp
 
 BeginCmp
-TimeStamp = /5620442C;
-Reference = G1;
-ValeurCmp = 9007-05-00;
-IdModule  = Custom Footprints:9007-05-00;
-EndCmp
-
-BeginCmp
 TimeStamp = /561C4656;
 Reference = L1;
 ValeurCmp = 22uH;
@@ -106,21 +99,21 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5614BB79;
+TimeStamp = /5614BB33;
 Reference = P2;
 ValeurCmp = CONN_01X40;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
 EndCmp
 
 BeginCmp
-TimeStamp = /5614BAE0;
+TimeStamp = /5614BB79;
 Reference = P3;
 ValeurCmp = CONN_01X40;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
 EndCmp
 
 BeginCmp
-TimeStamp = /5614BB33;
+TimeStamp = /5614BAE0;
 Reference = P4;
 ValeurCmp = CONN_01X40;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x40;
@@ -152,6 +145,13 @@ TimeStamp = /561BCBF8;
 Reference = PWR2;
 ValeurCmp = TS30011-M050QFNR;
 IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5664957E;
+Reference = Q1;
+ValeurCmp = SIA461DJ-T1-GE3;
+IdModule  = Custom Footprints:PowerPak_SC-70-6L-Single;
 EndCmp
 
 BeginCmp
