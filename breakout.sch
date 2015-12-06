@@ -679,7 +679,7 @@ F 3 "" H 800 6700 60  0000 C CNN
 	1    800  6700
 	-1   0    0    1   
 $EndComp
-Text Label 1650 6350 0    60   ~ 0
+Text Label 850  6350 2    60   ~ 0
 3.3V
 Text Label 5450 4800 2    60   ~ 0
 P2_9
@@ -1125,30 +1125,25 @@ Connection ~ 1850 7050
 Wire Wire Line
 	1850 6600 2000 6600
 Wire Wire Line
-	2000 6600 2000 6350
+	2000 6600 2000 6450
 Wire Wire Line
-	1000 6350 2700 6350
-Wire Wire Line
-	2700 6350 2700 6550
+	2700 6450 2700 6550
 Wire Wire Line
 	2700 6550 2300 6550
 Wire Wire Line
 	2300 6550 2300 6600
-Connection ~ 2000 6350
 Wire Wire Line
 	1500 6600 1650 6600
 Wire Wire Line
-	1650 6600 1650 6350
+	1650 6600 1650 6450
 Wire Wire Line
 	1150 6600 1350 6600
 Wire Wire Line
-	1350 6600 1350 6350
-Connection ~ 1650 6350
+	1350 6600 1350 6450
 Wire Wire Line
 	800  6600 1000 6600
 Wire Wire Line
-	1000 6600 1000 6350
-Connection ~ 1350 6350
+	1000 6600 1000 6450
 Wire Wire Line
 	700  6500 700  7350
 Wire Wire Line
@@ -1421,4 +1416,41 @@ Wire Wire Line
 	7600 7150 7600 7200
 Wire Wire Line
 	7600 7200 7450 7200
+$Comp
+L TEST W3
+U 1 1 5664A7E2
+P 3750 5450
+F 0 "W3" H 3750 5510 40  0000 C CNN
+F 1 "TEST" H 3750 5380 40  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3750 5450 60  0001 C CNN
+F 3 "" H 3750 5450 60  0000 C CNN
+	1    3750 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST W2
+U 1 1 5664C3C0
+P 2350 6000
+F 0 "W2" H 2350 6060 40  0000 C CNN
+F 1 "TEST" H 2350 5930 40  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2350 6000 60  0001 C CNN
+F 3 "" H 2350 6000 60  0000 C CNN
+	1    2350 6000
+	0    1    1    0   
+$EndComp
+NoConn ~ 2350 6200
+NoConn ~ 3750 5650
+Entry Wire Line
+	1250 6350 1350 6450
+Entry Wire Line
+	1550 6350 1650 6450
+Entry Wire Line
+	1900 6350 2000 6450
+Entry Wire Line
+	2600 6350 2700 6450
+Entry Wire Line
+	900  6350 1000 6450
+Wire Bus Line
+	2600 6350 850  6350
+Connection ~ 2350 5800
 $EndSCHEMATC
