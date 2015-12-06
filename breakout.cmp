@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 06 Dec 2015 12:37:13 AM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 06 Dec 2015 12:55:54 AM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -159,6 +159,13 @@ TimeStamp = /566407D6;
 Reference = Q2;
 ValeurCmp = IRLML2402TRPBF;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644916;
+Reference = R1;
+ValeurCmp = 12K;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
