@@ -1,4 +1,4 @@
-update=Tue 01 Dec 2015 07:42:51 PM EST
+update=Sat 05 Dec 2015 09:37:49 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,6 +6,26 @@ version=1
 NetIExt=net
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=1.00076
+PadDrillOvalY=1.00076
+PadSizeH=2.99974
+PadSizeV=1.50114
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=library
@@ -49,23 +69,4 @@ LibName36=library/cototech
 LibName37=library/cts
 LibName38=library/molex
 LibName39=library/mpd
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=1.00076
-PadDrillOvalY=1.00076
-PadSizeH=2.99974
-PadSizeV=1.50114
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
+LibName40=library/vishaysiliconix
