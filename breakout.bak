@@ -1204,13 +1204,13 @@ Text Label 3750 1600 0    60   ~ 0
 I2C0_SDA
 Text Label 4500 1600 0    60   ~ 0
 I2C0_SCL
-Text Label 2850 1500 0    60   ~ 0
+Text Label 2850 1600 0    60   ~ 0
 P2_5
 Text Label 3750 1500 0    60   ~ 0
 USB1_D-
 Text Label 4500 1500 0    60   ~ 0
 USB1_D+
-Text Label 3750 1400 0    60   ~ 0
+Text Label 2850 1500 0    60   ~ 0
 P2_4
 Text Label 2850 1300 0    60   ~ 0
 P6_8
@@ -1236,29 +1236,29 @@ Text Label 3750 2000 0    60   ~ 0
 P2_13
 Text Label 4500 2000 0    60   ~ 0
 P2_12
-Text Label 2850 1900 0    60   ~ 0
+Text Label 2850 2000 0    60   ~ 0
 P2_11
 Text Label 3750 1900 0    60   ~ 0
 P2_10
 Text Label 4500 1900 0    60   ~ 0
 P6_12
-Text Label 2850 1800 0    60   ~ 0
+Text Label 2850 1900 0    60   ~ 0
 P2_9
 Text Label 3750 1800 0    60   ~ 0
 P6_11
 Text Label 4500 1800 0    60   ~ 0
 P6_10
-Text Label 2850 1700 0    60   ~ 0
+Text Label 2850 1800 0    60   ~ 0
 CLK2
 Text Label 3750 1700 0    60   ~ 0
 P2_8
 Text Label 4500 1700 0    60   ~ 0
 P6_9
-Text Label 2850 1600 0    60   ~ 0
+Text Label 2850 1700 0    60   ~ 0
 P2_6
-Text Label 4500 1400 0    60   ~ 0
+Text Label 2850 1400 0    60   ~ 0
 P2_3
-Text Label 2850 2000 0    60   ~ 0
+Text Label 2850 2100 0    60   ~ 0
 P5_5
 Text Label 4500 2100 0    60   ~ 0
 P5_4
@@ -1304,19 +1304,6 @@ Wire Wire Line
 	5150 2100 5450 2100
 Wire Wire Line
 	5050 2700 5450 2700
-$Comp
-L GND #PWR018
-U 1 1 566387B9
-P 3100 2100
-F 0 "#PWR018" H 3100 1850 50  0001 C CNN
-F 1 "GND" H 3100 1950 50  0000 C CNN
-F 2 "" H 3100 2100 60  0000 C CNN
-F 3 "" H 3100 2100 60  0000 C CNN
-	1    3100 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2850 2100 3100 2100
 $Comp
 L SIA461DJ-T1-GE3 Q1
 U 1 1 5664957E
@@ -1365,10 +1352,10 @@ F 3 "" H 800 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR018
 U 1 1 56644987
 P 800 4900
-F 0 "#PWR019" H 800 4650 50  0001 C CNN
+F 0 "#PWR018" H 800 4650 50  0001 C CNN
 F 1 "GND" H 800 4750 50  0000 C CNN
 F 2 "" H 800 4900 60  0000 C CNN
 F 3 "" H 800 4900 60  0000 C CNN
@@ -1382,10 +1369,10 @@ Text Label 7450 7400 0    60   ~ 0
 Text Label 7450 7500 0    60   ~ 0
 3.3V
 $Comp
-L GND #PWR020
+L GND #PWR019
 U 1 1 566486A9
 P 7800 6800
-F 0 "#PWR020" H 7800 6550 50  0001 C CNN
+F 0 "#PWR019" H 7800 6550 50  0001 C CNN
 F 1 "GND" H 7800 6650 50  0000 C CNN
 F 2 "" H 7800 6800 60  0000 C CNN
 F 3 "" H 7800 6800 60  0000 C CNN
@@ -1395,10 +1382,10 @@ $EndComp
 Wire Wire Line
 	7800 6800 7450 6800
 $Comp
-L GND #PWR021
+L GND #PWR020
 U 1 1 5664879C
 P 7800 7150
-F 0 "#PWR021" H 7800 6900 50  0001 C CNN
+F 0 "#PWR020" H 7800 6900 50  0001 C CNN
 F 1 "GND" H 7800 7000 50  0000 C CNN
 F 2 "" H 7800 7150 60  0000 C CNN
 F 3 "" H 7800 7150 60  0000 C CNN
@@ -1450,4 +1437,8 @@ Wire Bus Line
 Connection ~ 2350 5800
 Text Label 2850 2700 0    60   ~ 0
 RESET
+Text Label 4500 1400 0    60   ~ 0
+P1_2
+Text Label 3750 1400 0    60   ~ 0
+P1_1
 $EndSCHEMATC
