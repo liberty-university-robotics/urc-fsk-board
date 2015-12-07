@@ -1014,11 +1014,11 @@ Text Label 4500 2700 0    60   ~ 0
 RTCX2
 Text Label 3750 2700 0    60   ~ 0
 RTCX1
-Text Label 2850 2600 0    60   ~ 0
+Text Label 2850 2500 0    60   ~ 0
 P3_5
 Text Label 4500 2500 0    60   ~ 0
 PF_4
-Text Label 2850 2700 0    60   ~ 0
+Text Label 2850 2600 0    60   ~ 0
 SPI_SSEL
 Text Label 4500 2600 0    60   ~ 0
 SPI_MOSI
@@ -1026,19 +1026,19 @@ Text Label 3750 2600 0    60   ~ 0
 SPI_MISO
 Text Label 3750 2500 0    60   ~ 0
 P3_4
-Text Label 2850 2500 0    60   ~ 0
+Text Label 2850 2400 0    60   ~ 0
 SPI_SCK
 Text Label 4500 2400 0    60   ~ 0
 P7_3
 Text Label 3750 2400 0    60   ~ 0
 P3_2
-Text Label 2850 2400 0    60   ~ 0
+Text Label 2850 2300 0    60   ~ 0
 P7_2
 Text Label 4500 2300 0    60   ~ 0
 P3_1
 Text Label 3750 2300 0    60   ~ 0
 P7_1
-Text Label 2850 2300 0    60   ~ 0
+Text Label 2850 2200 0    60   ~ 0
 P3_0
 Text Label 4500 2200 0    60   ~ 0
 P7_0
@@ -1307,21 +1307,16 @@ Wire Wire Line
 $Comp
 L GND #PWR018
 U 1 1 566387B9
-P 3100 2150
-F 0 "#PWR018" H 3100 1900 50  0001 C CNN
-F 1 "GND" H 3100 2000 50  0000 C CNN
-F 2 "" H 3100 2150 60  0000 C CNN
-F 3 "" H 3100 2150 60  0000 C CNN
-	1    3100 2150
+P 3100 2100
+F 0 "#PWR018" H 3100 1850 50  0001 C CNN
+F 1 "GND" H 3100 1950 50  0000 C CNN
+F 2 "" H 3100 2100 60  0000 C CNN
+F 3 "" H 3100 2100 60  0000 C CNN
+	1    3100 2100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2850 2100 3100 2100
-Wire Wire Line
-	3100 2100 3100 2200
-Wire Wire Line
-	3100 2200 2850 2200
-Connection ~ 3100 2150
 $Comp
 L SIA461DJ-T1-GE3 Q1
 U 1 1 5664957E
@@ -1453,4 +1448,6 @@ Entry Wire Line
 Wire Bus Line
 	2600 6350 850  6350
 Connection ~ 2350 5800
+Text Label 2850 2700 0    60   ~ 0
+RESET
 $EndSCHEMATC
