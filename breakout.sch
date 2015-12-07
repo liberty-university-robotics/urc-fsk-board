@@ -599,7 +599,6 @@ Text Label 5450 7400 2    60   ~ 0
 RESET
 Text Label 5450 4000 2    60   ~ 0
 3.3V
-NoConn ~ 2600 8450
 Text Label 2600 8250 2    60   ~ 0
 SD_WP
 Text Label 2300 7450 2    60   ~ 0
@@ -1486,4 +1485,15 @@ Text Label 2850 4000 0    60   ~ 0
 SD_DAT3
 Text Label 2850 4100 0    60   ~ 0
 SD_DAT2
+$Comp
+L GND #PWR022
+U 1 1 5665C05F
+P 2600 8450
+F 0 "#PWR022" H 2600 8200 50  0001 C CNN
+F 1 "GND" V 2600 8250 50  0000 C CNN
+F 2 "" H 2600 8450 60  0000 C CNN
+F 3 "" H 2600 8450 60  0000 C CNN
+	1    2600 8450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
