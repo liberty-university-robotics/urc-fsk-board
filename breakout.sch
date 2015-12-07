@@ -92,7 +92,7 @@ $Comp
 L A-DF-09-A/KG-T4S P5
 U 1 1 5614B4EE
 P 6500 700
-F 0 "P5" V 6500 0   60  0000 C CNN
+F 0 "P5" H 6500 0   60  0000 C CNN
 F 1 "A-DF-09-A/KG-T4S" H 6500 700 60  0000 C CNN
 F 2 "Custom Footprints:DIN9F" H 6500 700 60  0001 C CNN
 F 3 "" H 6500 700 60  0000 C CNN
@@ -614,8 +614,6 @@ NoConn ~ 6950 900
 NoConn ~ 6950 1000
 NoConn ~ 6950 1100
 NoConn ~ 6950 1200
-Text Label 6100 1250 3    60   ~ 0
-GND
 $Comp
 L GND #PWR014
 U 1 1 562880B7
@@ -1086,10 +1084,6 @@ Wire Wire Line
 	2200 5800 2800 5800
 Connection ~ 2600 5800
 Wire Wire Line
-	5050 1050 6100 1050
-Wire Wire Line
-	5150 950  6100 950 
-Wire Wire Line
 	2100 6950 2300 6950
 Wire Wire Line
 	2300 6950 2300 6800
@@ -1170,10 +1164,6 @@ Wire Wire Line
 Connection ~ 950  8250
 Wire Wire Line
 	1400 4100 1250 4100
-Wire Wire Line
-	5050 1050 5050 2700
-Wire Wire Line
-	5150 2100 5150 950 
 Wire Wire Line
 	1250 10050 3350 10050
 Text Label 4500 700  0    60   ~ 0
@@ -1300,10 +1290,6 @@ F 3 "" H 2250 5450 60  0000 C CNN
 	1    2250 5450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5150 2100 5450 2100
-Wire Wire Line
-	5050 2700 5450 2700
 $Comp
 L SIA461DJ-T1-GE3 Q1
 U 1 1 5664957E
@@ -1459,4 +1445,29 @@ Text Label 4500 4500 0    60   ~ 0
 GND
 Text Label 3750 4500 0    60   ~ 0
 P1_3
+Text Label 4500 3900 0    60   ~ 0
+3.3V
+Text Label 5450 2700 2    60   ~ 0
+U0_RXD
+Text Label 5450 2100 2    60   ~ 0
+U0_TXD
+Text Label 6100 950  2    60   ~ 0
+U0_TXD
+Text Label 6100 1050 2    60   ~ 0
+U0_RXD
+$Comp
+L GND #PWR021
+U 1 1 566561B2
+P 6100 1250
+F 0 "#PWR021" H 6100 1000 50  0001 C CNN
+F 1 "GND" H 6100 1100 50  0000 C CNN
+F 2 "" H 6100 1250 60  0000 C CNN
+F 3 "" H 6100 1250 60  0000 C CNN
+	1    6100 1250
+	1    0    0    -1  
+$EndComp
+Text Label 3750 4000 0    60   ~ 0
+U0_TXD
+Text Label 4500 4000 0    60   ~ 0
+U0_RXD
 $EndSCHEMATC
