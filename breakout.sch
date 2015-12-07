@@ -1004,9 +1004,9 @@ Text Label 2850 2900 0    60   ~ 0
 P7_5
 Text Label 4500 2800 0    60   ~ 0
 P7_4
-Text Label 3750 2800 0    60   ~ 0
-WAKEUP0
 Text Label 2850 2800 0    60   ~ 0
+WAKEUP0
+Text Label 3750 2800 0    60   ~ 0
 RTC_ALARM
 Text Label 4500 2700 0    60   ~ 0
 RTCX2
@@ -1466,8 +1466,24 @@ F 3 "" H 6100 1250 60  0000 C CNN
 	1    6100 1250
 	1    0    0    -1  
 $EndComp
-Text Label 3750 4000 0    60   ~ 0
+Text Label 3750 4100 0    60   ~ 0
 U0_TXD
 Text Label 4500 4000 0    60   ~ 0
 U0_RXD
+Text Label 3750 4000 0    60   ~ 0
+BAT3.0V
+Text Label 3750 4200 0    60   ~ 0
+SD_CD
+Text Label 3750 4300 0    60   ~ 0
+SD_CMD
+Text Label 2850 4400 0    60   ~ 0
+SD_CLK
+Text Label 2850 4300 0    60   ~ 0
+SD_DAT0
+Text Label 2850 4200 0    60   ~ 0
+SD_DAT1
+Text Label 2850 4000 0    60   ~ 0
+SD_DAT3
+Text Label 2850 4100 0    60   ~ 0
+SD_DAT2
 $EndSCHEMATC
