@@ -285,7 +285,7 @@ F 3 "" H 2000 2550 60  0000 C CNN
 $EndComp
 Text Label 1600 750  0    60   ~ 0
 GND
-Text Label 1900 850  0    60   ~ 0
+Text Label 2050 850  0    60   ~ 0
 RAIL
 Text Label 5450 5500 2    60   ~ 0
 GND
@@ -932,12 +932,12 @@ P2_3
 $Comp
 L D_Schottky D2
 U 1 1 564CF908
-P 1750 850
-F 0 "D2" H 1850 800 50  0000 C CNN
-F 1 "B340" H 1700 950 50  0000 C CNN
-F 2 "Diodes_SMD:Diode-SMC_Standard" H 1750 850 60  0001 C CNN
-F 3 "" H 1750 850 60  0000 C CNN
-	1    1750 850 
+P 1900 850
+F 0 "D2" H 2000 800 50  0000 C CNN
+F 1 "B340" H 1850 950 50  0000 C CNN
+F 2 "Diodes_SMD:Diode-SMC_Standard" H 1900 850 60  0001 C CNN
+F 3 "" H 1900 850 60  0000 C CNN
+	1    1900 850 
 	1    0    0    1   
 $EndComp
 Text Label 3750 3800 0    60   ~ 0
@@ -1433,7 +1433,7 @@ Entry Wire Line
 Entry Wire Line
 	900  6350 1000 6450
 Wire Bus Line
-	2600 6350 850  6350
+	850  6350 2600 6350
 Connection ~ 2350 5800
 Text Label 2850 2700 0    60   ~ 0
 RESET
@@ -1441,4 +1441,24 @@ Text Label 4500 1400 0    60   ~ 0
 P1_2
 Text Label 3750 1400 0    60   ~ 0
 P1_1
+Text Label 4500 4600 0    60   ~ 0
+5V
+Text Label 4500 4300 0    60   ~ 0
+RAIL
+Text Label 1500 1150 2    60   ~ 0
+UNREG
+Wire Wire Line
+	1600 850  1600 1150
+Wire Wire Line
+	1750 850  1600 850 
+Wire Wire Line
+	1600 1150 1500 1150
+Text Label 4500 4400 0    60   ~ 0
+UNREG
+Text Label 4500 4500 0    60   ~ 0
+GND
+Text Label 3750 4600 0    60   ~ 0
+GND
+Text Label 2850 4600 0    60   ~ 0
+GND
 $EndSCHEMATC
