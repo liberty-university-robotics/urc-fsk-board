@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 06 Dec 2015 01:17:39 AM EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Mon 07 Dec 2015 01:34:04 PM EST
 
 BeginCmp
 TimeStamp = /563D3D9D;
@@ -96,6 +96,34 @@ TimeStamp = /561EBE7B;
 Reference = L2;
 ValeurCmp = 4.7uH;
 IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5665D583;
+Reference = M1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Custom Footprints:MOUNTING_HOLE_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5665D65A;
+Reference = M2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Custom Footprints:MOUNTING_HOLE_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5665D76B;
+Reference = M3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Custom Footprints:MOUNTING_HOLE_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5665D882;
+Reference = M4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Custom Footprints:MOUNTING_HOLE_2.5mm;
 EndCmp
 
 BeginCmp
