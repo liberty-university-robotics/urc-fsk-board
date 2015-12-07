@@ -978,11 +978,11 @@ Text Label 4500 3700 0    60   ~ 0
 TMS
 Text Label 2850 3800 0    60   ~ 0
 TDO
-Text Label 4500 3800 0    60   ~ 0
+Text Label 3750 4400 0    60   ~ 0
 P4_9
 Text Label 2850 3900 0    60   ~ 0
 P0_1
-Text Label 3750 3900 0    60   ~ 0
+Text Label 2850 4400 0    60   ~ 0
 P4_10
 Text Label 3750 3600 0    60   ~ 0
 TDI
@@ -1266,17 +1266,17 @@ Text Label 3750 2100 0    60   ~ 0
 P5_3
 Text Label 3750 2200 0    60   ~ 0
 P1_8
-Text Label 3750 4100 0    60   ~ 0
+Text Label 3750 4600 0    60   ~ 0
 P1_5
-Text Label 2850 4100 0    60   ~ 0
+Text Label 2850 4600 0    60   ~ 0
 USB0_IND0
-Text Label 4500 4000 0    60   ~ 0
+Text Label 4500 4200 0    60   ~ 0
 P5_2
-Text Label 3750 4000 0    60   ~ 0
+Text Label 2850 4500 0    60   ~ 0
 P5_1
-Text Label 4500 3900 0    60   ~ 0
+Text Label 3750 4300 0    60   ~ 0
 P5_0
-Text Label 2850 4000 0    60   ~ 0
+Text Label 4500 4100 0    60   ~ 0
 P1_0
 $Comp
 L GND #PWR016
@@ -1457,8 +1457,6 @@ Text Label 4500 4400 0    60   ~ 0
 UNREG
 Text Label 4500 4500 0    60   ~ 0
 GND
-Text Label 3750 4600 0    60   ~ 0
-GND
-Text Label 2850 4600 0    60   ~ 0
-GND
+Text Label 3750 4500 0    60   ~ 0
+P1_3
 $EndSCHEMATC
